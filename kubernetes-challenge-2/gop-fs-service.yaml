@@ -6,3 +6,5 @@ spec:
   ports:
   - targetPort: 8080
     port: 8080
+    nodePort: 31200
+  type: NodePort
