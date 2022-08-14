@@ -4,6 +4,8 @@ metadata:
   name: jekyll
   namespace: development
 spec:
+  selector:
+    run: jekyll
   ports:
   - targetPort: 4000
     port: 8080
