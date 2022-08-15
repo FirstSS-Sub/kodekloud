@@ -5,7 +5,7 @@ metadata:
   namespace: vote
 spec:
   selector:
-    app: db
+    app: db-deployment
   ports:
   - port: 5432
     targetPort: 5432
